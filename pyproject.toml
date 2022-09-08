@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wandb-test"
+version = "0.1.0"
+description = ""
+authors = ["Danny Robinson <danny.robinson111@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+wandb = "^0.13.2"
+transformers = "^4.21.3"
+datasets = "^2.4.0"
+ipykernel = "^6.15.2"
+torch = "^1.12.0"
+seqeval = "^1.2.2"
+evaluate = "^0.2.2"
+ipywidgets = "^8.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
